@@ -1,11 +1,14 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Autp release draff'
+description: '..'
+author: 'Jason avendano'
 inputs:
   milliseconds: # change this
     required: true
     description: 'input description here'
     default: 'default value if applicable'
+outputs:
+  time:
+    description: 'Milliseconds related within input variable'
 runs:
   using: 'node16'
   main: 'dist/index.js'
